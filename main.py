@@ -57,6 +57,8 @@ time.sleep(3)
 easy_apply = driver.find_element_by_css_selector('.jobs-apply-button--top-card button')
 easy_apply.click()
 
+# At this point Linkedin automatically fills email and phone which you used while creating account
+
 time.sleep(2)
 
 # Automating the click next button
